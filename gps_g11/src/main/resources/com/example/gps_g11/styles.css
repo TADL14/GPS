@@ -1,0 +1,17 @@
+.label {
+    -fx-text-fill: #333333;
+}
+
+.text-field {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
+
+.hbox {
+    -fx-padding: 10;
+}
+
+.vbox {
+    -fx-spacing: 15;
+}

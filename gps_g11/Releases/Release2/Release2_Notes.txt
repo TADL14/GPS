@@ -1,0 +1,19 @@
+Release Notes
+Version: 2.0.0
+Release Date: December 10, 2024
+
+New Features
+1. Improved Survey for Personalized Plant Recommendations
+ - Detailed questions covering environment, preferences, and care capabilities.
+ - Precise, personalized plant recommendations tailored to users' unique needs and conditions.
+
+2. Refining and expanding the plant garden with additional Features
+ - A task display to help users track and manage essential plant care activities.
+ - Basic plant healthcare analysis to monitor the well-being of the plant.
+
+3. Display of Articles related to plant healthcare.
+ - Showcases curated articles on plant care, tips, and solutions to common issues.
+
+This feature empowers users to make informed choices, ensuring their plants thrive in their unique conditions.
+
+These updates provide a more intuitive platform, making it enjoyable for users to explore, learn, and interact with plant care tools

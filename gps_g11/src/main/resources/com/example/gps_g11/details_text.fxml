@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #93c47d;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gps_g11.PlantDetailsController">
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="600.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+            <children>
+                <!-- Título com o nome da planta -->
+                <Label fx:id="plantNameLabel" alignment="CENTER" layoutY="36.0" prefWidth="800.0" text="Plant Name" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Label>
+
+                <!-- Logo e botão de voltar -->
+                <ImageView fx:id="logoImageView" fitHeight="80" fitWidth="80" layoutX="690.0" layoutY="20.0" onMouseClicked="#goToHome" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@icons/logo.png" />
+                    </image>
+                </ImageView>
+
+                <ImageView fx:id="viewPlantGoBack" fitHeight="53.0" fitWidth="93.0" layoutX="33.0" layoutY="533.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@icons/back.png" />
+                    </image>
+                </ImageView>
+
+                <!-- Mensagem de erro -->
+                <Label fx:id="messageLabel" alignment="CENTER" layoutX="160.0" layoutY="498.0" prefWidth="480" textFill="RED">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+
+                <!-- Imagem da planta -->
+                <ImageView fx:id="plantImageView" fitHeight="219.0" fitWidth="270.0" layoutX="300.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true" />
+
+                <!-- Growing Conditions -->
+                <HBox layoutX="58.0" layoutY="324.0" spacing="10.0">
+                    <Label text="Growing Conditions:">
+                        <font>
+                            <Font name="System Bold" size="20.0" />
+                        </font>
+                    </Label>
+                    <ImageView fx:id="growingConditionsIcon" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@icons/conditions_icon.png" />
+                        </image>
+                    </ImageView>
+                </HBox>
+
+                <!-- Detalhes das condições de crescimento -->
+                <VBox fx:id="growingConditionsBox" layoutX="58.0" layoutY="360.0" spacing="10.0" visible="false">
+                    <Label fx:id="lightLabel" text="Light: Loading..." />
+                    <Label fx:id="waterLabel" text="Water: Loading..." />
+                    <Label fx:id="temperatureLabel" text="Temperature: Loading..." />
+                    <Label fx:id="soilLabel" text="Soil: Loading..." />
+                </VBox>
+
+                <!-- Status -->
+                <HBox layoutX="58.0" layoutY="130.0" spacing="10.0">
+                    <Label alignment="CENTER" text="Status:">
+                        <font>
+                            <Font name="System Bold" size="18.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="labelStatus" alignment="CENTER">
+                        <font>
+                            <Font name="System Bold" size="18.0" />
+                        </font>
+                    </Label>
+                </HBox>
+
+                <!-- Emoji do smile -->
+                <ImageView fx:id="emoji" fitHeight="60.0" fitWidth="66.0" layoutX="109.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+                </ImageView>
+
+                <!-- Tarefas da planta -->
+                <Label alignment="CENTER" layoutX="58.0" layoutY="370.0" text="Tasks:">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <ScrollPane fitToWidth="true" layoutX="58.0" layoutY="400.0" prefHeight="135.0" prefWidth="700.0" style="-fx-background: #93c47d; -fx-background-color: #93c47d;">
+                    <content>
+                        <VBox fx:id="tasksContainer" spacing="10.0">
+                            <!-- Dynamic CheckBoxes will be added here -->
+                        </VBox>
+                    </content>
+                </ScrollPane>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

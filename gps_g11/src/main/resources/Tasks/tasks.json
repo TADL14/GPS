@@ -1,0 +1,130 @@
+{
+  "tasks": [
+    {
+      "plant": "Epipremnum aureum",
+      "tasks": [
+        {"description": "Water Epipremnum once a week"},
+        {"description": "Fertilize Epipremnum monthly"},
+        {"description": "Prune Epipremnum if it grows too long"},
+        {"description": "Check Epipremnum for pests every month"}
+      ]
+    },
+    {
+      "plant": "Chlorophytum comosum",
+      "tasks": [
+        {"description": "Water Chlorophytum every 10 days"},
+        {"description": "Repot Chlorophytum annually"},
+        {"description": "Trim dead leaves from Chlorophytum"},
+        {"description": "Fertilize Chlorophytum every 2 months"}
+      ]
+    },
+    {
+      "plant": "Zamioculcas zamiifolia",
+      "tasks": [
+        {"description": "Water Zamioculcas every 2 weeks"},
+        {"description": "Dust leaves monthly"},
+        {"description": "Repot Zamioculcas every 2 years"},
+        {"description": "Fertilize in spring"}
+      ]
+    },
+    {
+      "plant": "Sansevieria trifasciata",
+      "tasks": [
+        {"description": "Water Sansevieria once a month"},
+        {"description": "Rotate Sansevieria for even growth"},
+        {"description": "Fertilize in growing season"},
+        {"description": "Check for root rot"}
+      ]
+    },
+    {
+      "plant": "Aloe vera",
+      "tasks": [
+        {"description": "Water Aloe Vera every 2 weeks"},
+        {"description": "Repot annually"},
+        {"description": "Remove dead leaves"},
+        {"description": "Check for pests"}
+      ]
+    },
+    {
+      "plant": "Cactaceae",
+      "tasks": [
+        {"description": "Water sparingly"},
+        {"description": "Fertilize in spring"},
+        {"description": "Inspect for pests"},
+        {"description": "Rotate to prevent leaning"}
+      ]
+    },
+    {
+      "plant": "Lavandula angustifolia",
+      "tasks": [
+        {"description": "Water every 2 weeks"},
+        {"description": "Prune in spring"},
+        {"description": "Fertilize in growing season"},
+        {"description": "Check for pests"}
+      ]
+    },
+    {
+      "plant": "Spathiphyllum",
+      "tasks": [
+        {"description": "Water weekly"},
+        {"description": "Fertilize every 2 months"},
+        {"description": "Prune as needed"},
+        {"description": "Inspect for pests"}
+      ]
+    },
+    {
+      "plant": "Ficus elastica",
+      "tasks": [
+        {"description": "Water weekly"},
+        {"description": "Dust leaves monthly"},
+        {"description": "Fertilize in spring and summer"},
+        {"description": "Inspect for pests"}
+      ]
+    },
+    {
+      "plant": "Strelitzia reginae",
+      "tasks": [
+        {"description": "Water weekly"},
+        {"description": "Fertilize every 3 months"},
+        {"description": "Remove dead leaves"},
+        {"description": "Check for pests"}
+      ]
+    },
+    {
+      "plant": "Monstera deliciosa",
+      "tasks": [
+        {"description": "Water every 2 weeks"},
+        {"description": "Dust leaves monthly"},
+        {"description": "Fertilize every 3 months"},
+        {"description": "Prune as needed"}
+      ]
+    },
+    {
+      "plant": "Ficus lyrata",
+      "tasks": [
+        {"description": "Water weekly"},
+        {"description": "Dust leaves monthly"},
+        {"description": "Fertilize in spring and summer"},
+        {"description": "Inspect for pests"}
+      ]
+    },
+    {
+      "plant": "Hibiscus rosa-sinensis",
+      "tasks": [
+        {"description": "Water every 3 days"},
+        {"description": "Fertilize monthly"},
+        {"description": "Prune regularly"},
+        {"description": "Check for pests"}
+      ]
+    },
+    {
+      "plant": "Orchidaceae",
+      "tasks": [
+        {"description": "Water every 7-10 days"},
+        {"description": "Fertilize in growing season"},
+        {"description": "Prune dead blooms"},
+        {"description": "Inspect for pests"}
+      ]
+    }
+  ]
+}

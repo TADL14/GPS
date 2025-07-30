@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #93c47d;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gps_g11.PlantsDetails.PlantDetails_libraryControl">
+    <children>
+        <VBox alignment="center" layoutX="200.0" layoutY="53.0" prefHeight="500" prefWidth="400" spacing="20">
+            <ImageView fx:id="plantImageView" fitHeight="200" fitWidth="200" preserveRatio="true" />
+            <Label fx:id="plantNameLabel" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-alignment: center;" />
+            <Label fx:id="plantDetailsLabel" style="-fx-font-size: 14px; -fx-text-alignment: start;" wrapText="true" />
+        </VBox>
+
+        <ImageView fx:id="logoImageView" fitHeight="80" fitWidth="80" layoutX="706.0" layoutY="14.0" onMouseClicked="#gotoHome" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@icons/logo.png" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="goBackButton" fitHeight="53.0" fitWidth="93.0" layoutX="14.0" layoutY="518.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/back.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

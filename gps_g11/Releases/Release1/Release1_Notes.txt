@@ -1,0 +1,20 @@
+Release Notes
+Version: 1.0.0
+Release Date: November 12, 2024
+
+New Features
+1. Login in and sign up using credentials
+ - Register and log in securely with their credentials.
+ - Access their account to manage plant care preferences and settings.
+
+2. Access the plant library, search, and filter through plant information
+ - Browse a comprehensive collection of plant profiles.
+ - Use advanced search and filtering options to find plants based on specific criteria.
+
+3. Complete a basic survey to receive personalized plant recommendations
+ - Get customized plant suggestions based on preferences, environment, and care level.
+ - Receive immediate recommendations to build their ideal collection of plants.
+
+This feature empowers users to make informed choices, ensuring their plants thrive in their unique conditions.
+
+Thank you for using our product, and stay tuned for more updates and features!

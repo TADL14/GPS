@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #93c47d;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gps_g11.PlantsDetails.ViewPlantDetailsControl">
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="600.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Label alignment="CENTER" layoutX="75.0" layoutY="130.0" text="Status:">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutY="36.0" prefWidth="800.0" text="Cactus" textAlignment="CENTER">
+                    <font>
+                        <Font name="System bold" size="30.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="logoImageView" fitHeight="80" fitWidth="80" layoutX="690.0" layoutY="20.0" onMouseClicked="#goToHome" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@icons/logo.png" />
+                    </image>
+                </ImageView>
+                <!-- Label para mensagens, adicionado aqui -->
+                <Label fx:id="messageLabel" alignment="CENTER" layoutX="160.0" layoutY="498.0" prefWidth="480" textFill="RED">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+            <Label alignment="CENTER" layoutX="139.0" layoutY="130.0" text="Healthy">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="219.0" fitWidth="270.0" layoutX="300.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/cacto.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="58.0" layoutY="324.0" text="Tasks:">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <CheckBox layoutX="59.0" layoutY="363.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="248.0" text="Watering in 3 days late">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </CheckBox>
+            <CheckBox layoutX="58.0" layoutY="408.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="288.0" text="Order cactus fertilizer in 2 days">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </CheckBox>
+            <CheckBox layoutX="59.0" layoutY="453.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="248.0" text="Fertilize in 7 days">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </CheckBox>
+            <ImageView fitHeight="60.0" fitWidth="66.0" layoutX="109.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/happiness.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="viewPlantGoBack" fitHeight="53.0" fitWidth="93.0" layoutX="33.0" layoutY="533.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/back.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="261.0" layoutY="371.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/warning.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="316.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/store.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

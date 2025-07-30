@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.gps_g11.SubmittingRecommendation"
+            prefHeight="600.0" prefWidth="800.0"
+            style="-fx-background-color: #93c47d;">
+    <children>
+        <!-- Botão para enviar a planta -->
+        <Button fx:id="submitPlantButton" text="Submit" layoutX="20" layoutY="20"
+                onAction="#handleSubmitPlant"
+                style="-fx-background-color: black; -fx-text-fill: white; -fx-font-size: 16px;"/>
+
+        <!-- Label que mostrará o resultado da planta -->
+        <Label fx:id="resultLabel" layoutX="20" layoutY="70" text="">
+
+        </Label>
+
+        <!-- Área para exibir a imagem -->
+        <ImageView fx:id="plantImageView" layoutX="20" layoutY="110" fitHeight="200" fitWidth="200"/>
+    </children>
+
+</AnchorPane>

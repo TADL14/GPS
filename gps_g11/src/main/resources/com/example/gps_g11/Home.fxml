@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #93c47d;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gps_g11.Home.HomeControl">
+  <!-- Header with greeting -->
+  <VBox alignment="TOP_CENTER" layoutX="20.0" layoutY="20.0" spacing="20.0" />
+ <!-- Section for icons and their labels -->
+ <HBox alignment="CENTER" layoutX="189.0" layoutY="180.0" spacing="40.0">
+   <VBox fx:id="btMyGarden" alignment="CENTER" onMouseClicked="#handleMyGardenButtonAction">
+      <ImageView fx:id="myGardenIcon" fitHeight="120.0" fitWidth="120.0">
+            <image>
+               <Image url="@icons/mygarden.png" />
+            </image>
+         </ImageView>
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="My Garden" />
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+   </VBox>
+   <VBox fx:id="btPlantLibrary" alignment="CENTER" onMouseClicked="#handlePlantLibraryButtonAction">
+     <ImageView fx:id="plantLibraryIcon" fitHeight="120.0" fitWidth="120.0">
+            <image>
+               <Image url="@icons/plantLibrary.png" />
+            </image>
+         </ImageView>
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Plant Library" />
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+   </VBox>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+      <padding>
+         <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+      </padding>
+ </HBox>
+
+    <HBox alignment="CENTER" layoutX="189.0" layoutY="346.0" spacing="40.0">
+      <children>
+      <VBox fx:id="btTasks" alignment="CENTER" onMouseClicked="#handleTasksButtonAction">
+         <ImageView fx:id="tasksIcon" fitHeight="120.0" fitWidth="120.0">
+               <image>
+                  <Image url="@icons/tasks.png" />
+               </image>
+            </ImageView>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tasks" />
+            <padding>
+               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+      </VBox>
+      <VBox fx:id="btArticles" alignment="CENTER" onMouseClicked="#handleArticlesButtonAction">
+         <ImageView fx:id="articlesIcon" fitHeight="120.0" fitWidth="120.0">
+               <image>
+                  <Image url="@icons/articles.png" />
+               </image>
+            </ImageView>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Articles" />
+            <padding>
+               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+      </VBox>
+      </children>
+      <padding>
+         <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+      </padding>
+ </HBox>
+    <ImageView fx:id="logoImageView" fitHeight="80" fitWidth="80" layoutX="706.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@icons/logo.png" />
+        </image>
+    </ImageView>
+ <Label layoutX="106.0" layoutY="36.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Hello User!" />
+   <Label fx:id="messageLabel" alignment="CENTER" layoutX="159.0" layoutY="135.0" prefWidth="480" textFill="RED">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+    <VBox  fx:id="btProfileIcon" alignment="CENTER" layoutX="700.0" layoutY="550.0"  onMouseClicked="#handleProfileIconClick">
+        <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+        </padding>
+        <!-- Footer with profile icon -->
+        <ImageView  fitHeight="50.0" fitWidth="50.0" layoutX="720.0" layoutY="570.0">
+        <image>
+            <Image url="@icons/profile.png" />
+        </image>
+        </ImageView>
+
+    </VBox>
+
+</AnchorPane>
